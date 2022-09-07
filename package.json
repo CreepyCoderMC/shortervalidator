@@ -1,0 +1,51 @@
+{
+  "type":         "module",
+  "name":         "@teamcoder/shortervalidator",
+  "version":      "1.0.0",
+  "description":  "This module is small but easy to use. The purpose of this module is to check if a target string is shorter than the source string, it can optionally also check if the source and target is the same length.",
+  "main":         "shortervalidator.js",
+
+  "keywords": [
+                  "value",
+                  "string",
+                  "shorter",
+                  "equal",
+                  "lenght",
+                  "array",
+                  "validator",
+                  "node.js",
+                  "javascript"
+  ],
+
+  "author":       "CreepyCoderMC",
+  "license":      "CC BY-NC-ND 4.0",
+  "homepage":     "https://github.com/CreepyCoderMC",
+  "url":          "https://github.com/CreepyCoderMC/shortervalidator/issues",
+  "email":        "creepycodermc@gmail.com",
+
+  "funding": {
+    "type":       "PayPal Donation",
+    "url":        "https://www.paypal.com/donate/?hosted_button_id=NNPJXD2CLSXRA"
+  },
+
+  "repository": {
+    "type":       "git",
+    "url":        "https://github.com/CreepyCoderMC/shortervalidator"
+  },
+
+  "scripts": {
+    "test":       "node test.js"
+  },
+
+  "engines": {
+    "node":       ">=10",
+    "npm":        ">=6"
+  },
+
+  "os": [
+                  "windows",
+                  "linux",
+                  "raspberrypi"
+  ]
+
+}
