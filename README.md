@@ -50,9 +50,10 @@ Testing Condition 12 Passed = true
 @return { Boolean        }               Validation passed or failed
 ```
 ## Version History
-| Version  | Date                   | Remark                              |
-|----------|------------------------|-------------------------------------|
-| 1.0.0    | 07 September 2022      | Official first release              |
+| Version  | Date                   | Remark                                                |
+|----------|------------------------|-------------------------------------------------------|
+| 1.0.0    | 07 September 2022      | Official first release                                |
+| 1.0.1    | 09 September 2022      | Fixed package.json so that npm can install on any os  |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/shortervalidator
