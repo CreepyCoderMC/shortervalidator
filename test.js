@@ -1,4 +1,4 @@
-import valueIsShorter from './shortervalidator.js';
+import { valueIsShorter } from '@teamcoder/shortervalidator';
 
 var array1 = [ 1 , 2 , 3 , 4 , 5 ];
 var array2 = [ 1 , 2 , 3 , 4 ];
