@@ -43,19 +43,35 @@ Testing Condition 11 Passed = true
 Testing Condition 12 Passed = true
 ```
 ## Function Parameters
+### Parameters Passed
 ```
 @param  { String , Array } source        The source value to be checked
 @param  { String , Array } target        The target value to be checked
 @param  { Boolean        } equal         Check if value is equal as well ( optional , default = false )
-
+```
+### Parameters Returned
+```
 @return { Boolean        }               Validation passed or failed
 ```
+## Notes Before You Start
+Very important to remember to always include the following in your main project package.json file:
+```
+"type": "module"
+```
+Without this entry in the package file you will get the following error if you try to run your project
+```
+(node:15500) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use 'node --trace-warnings ...' to show where the warning was created)
+C:\Users\ ... \shortervalidator\shortervalidator.js:1
+import { valueIsShorter } from '@teamcoder/shortervalidator';
+```
 ## Version History
-| Version  | Date                   | Remark                                                |
-|----------|------------------------|-------------------------------------------------------|
-| 1.0.0    | 07 September 2022      | Official first release                                |
-| 1.0.1    | 09 September 2022      | Fixed package.json so that npm can install on any os  |
-| 1.0.2    | 10 September 2022      | Fixed code to be proper npm package                   |
+| Version  | Date                   | Remark                                                                                                |
+|----------|------------------------|-------------------------------------------------------------------------------------------------------|
+| 1.0.0    | 07 September 2022      | Official first release                                                                                |
+| 1.0.1    | 09 September 2022      | Fixed package.json so that npm can install on any os                                                  |
+| 1.0.2    | 10 September 2022      | Fixed code to be proper npm package                                                                   |
+| 1.0.3    | 11 September 2022      | Removed Default from export function in shortervalidator.js file                                      |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/shortervalidator

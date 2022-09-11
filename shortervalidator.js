@@ -230,6 +230,7 @@
   *     1.0.0       07 September 2022           Official first release
   *     1.0.1       09 September 2022           Fixed package.json so that npm can install on any os
   *     1.0.2       10 September 2022           Fixed code to be proper npm package
+  *     1.0.3       11 September 2022           Removed Default from export function in shortervalidator.js file
   */
 
  /* Validates if a target value is shorter than the source
@@ -240,7 +241,7 @@
   * @return { Boolean        }               Validation passed or failed
   */
 
-export default function valueIsShorter ( source , target , equal = false ) {
+export function valueIsShorter ( source , target , equal = false ) {
 
     // Checks if source and target are equal if specified 
     if( equal ) {
